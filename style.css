@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(6, 92, 92);
+}
+.logo{
+    color:darkgoldenrod;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m li{
+    list-style:none;
+}
+li a{
+   color:white;
+}
+.m{
+    display: flex;
+    gap: 10px;
+}
+main{
+    text-align: center;
+}
+section h1{
+    color: white;
+    font-size: 50px;
+}
+section p{
+    line-height: 1.6;
+    padding: 30px 0px ;
+}
+button{
+    background-color:cyan;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: black;
+    font-size:larger;
+}
+button a{
+    text-decoration: none;
+}
+.contact a{
+    color: rgb(236, 233, 239);
+    font-size: large;
+}
+.services li{
+    font-size: 20px;
+    color: darkblue;
+}
+.qns{
+    font-size: large;
+
+}
+.btn{
+    margin-top: 20px;
+}
+input{
+    padding: 5px 50px;
+}
+.thank{
+    text-align: center;
+}
